@@ -1,0 +1,23 @@
+.layout {
+  font-family: sans-serif;
+ 
+    display: grid;
+  
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .layout {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+  
+  .card {
+    background-color: rgb(21, 207, 240);
+    border: 1px solid rgb(13, 225, 91);
+    padding: 0.5rem;
+ 
+}
